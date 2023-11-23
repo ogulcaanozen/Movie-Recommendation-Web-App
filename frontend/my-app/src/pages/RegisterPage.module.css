@@ -1,0 +1,91 @@
+.container {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .formContainer{
+    border-width: 1px;
+    border-style:solid;
+    border-color:#E8E8E8;
+    height: 36rem;
+    width: 25rem;
+  }
+  
+  .form {
+    margin: 0px 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    gap: 10px;
+    background-color: white;
+  }
+  
+  .styledInput {
+    border-width: 0.8px;
+    border-color: grey;
+    font-size: 16px;
+    width: 17rem;
+    height: 2rem;
+    border-style: solid;
+    border-radius: 2px;
+  }
+  
+  .styledInput::placeholder{
+    padding: 5px;
+    font-size: small;
+  }
+
+  .logInButton {
+    background-color:  #FFD426;
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+    width: 90%;
+    margin: 10px 10px 10px 10px;
+    border: 0.5px solid black;
+  }
+  
+  .registerButton{
+    margin: 10px 10px 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #EFE9E9;
+    border: 0.5px solid black;
+    padding: 10px;
+    width: 90%;
+  }
+  
+  .registerLink {
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+  }
+
+  .formText{
+    margin-bottom: 0px;
+    margin-left: 4px;
+  }
+
+  .signInHeader{
+    margin-left: 50px;
+    margin-bottom: 0px;
+  }
+
+  .horizontalLine {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+
+  .signInText{
+    font-size: small;
+  }
+  
+
+  
+  

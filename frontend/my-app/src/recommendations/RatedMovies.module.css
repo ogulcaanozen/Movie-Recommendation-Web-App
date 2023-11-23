@@ -1,0 +1,30 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: #2C2C2C;
+    width: 92%;
+    margin-left: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.poster{
+    height: 7rem;
+    width: auto;
+    margin-left: 0.5rem;
+}
+
+.mainContainer h3{
+    color: white;
+    opacity: 90%;
+    font-size: small;
+    margin-left: 1rem;
+}
+
+.mainContainer p{
+    font-size: x-small;
+}
+
+.rating{
+    margin-left: 1rem;
+}
+

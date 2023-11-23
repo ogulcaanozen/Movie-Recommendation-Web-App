@@ -1,0 +1,96 @@
+.container {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .formContainer{
+    border-width: 1px;
+    border-style:solid;
+    border-color:#E8E8E8;
+    height: 26rem;
+    width: 25rem;
+  }
+  
+  .form {
+    margin: 0px 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    gap: 10px;
+    background-color: white;
+  }
+  
+  .input {
+    border-width: 0.8px;
+    border-color: grey;
+    font-size: 16px;
+    width: 17rem;
+    height: 2rem;
+    border-style: solid;
+    border-radius: 2px;
+  }
+  
+  .logInButton {
+    background-color:  #FFD426;
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+    width: 90%;
+    margin: 10px 10px 10px 10px;
+    border: 0.5px solid black;
+  }
+  
+  .registerButton{
+    margin: 10px 10px 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #EFE9E9;
+    border: 0.5px solid black;
+    padding: 10px;
+    width: 90%;
+  }
+  
+  .registerLink {
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+  }
+
+  .formText{
+    margin-bottom: 0px;
+    margin-left: 4px;
+  }
+
+  .signInHeader{
+    margin-left: 50px;
+    margin-bottom: 0px;
+  }
+
+  .lineWithText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .lineWithText::before,
+  .lineWithText::after {
+    content: "";
+    flex-grow: 1;
+    border-bottom: 1px solid grey;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .lineWithText span {
+    color: grey;
+    opacity: 90%;
+    font-size: small;
+  }
+  
+  

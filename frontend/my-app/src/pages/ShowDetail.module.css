@@ -1,0 +1,97 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+    background-color: black;
+  }
+
+.mainContainer h2{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+.mainContainer h3{
+    color: white;
+    margin-bottom: 1px;
+    
+}
+
+.mainContainer p{
+    color: white;
+    margin-top: 0px;
+    opacity: 80%;
+}
+
+.poster{
+    height: 24rem;
+    width: auto;
+}
+.detailContainer{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.imageContainer{
+
+    margin-left: 2rem;
+}
+
+.commentForm {
+    width: 100%;
+    max-width: 830px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.commentForm h2{
+    color: black;
+}
+
+.commentInput {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.commentButton {
+    display: block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.Comments {
+    border: 1px solid transparent;
+    border-top-color: gray;
+    border-bottom-color: gray;
+    padding: 15px;
+    margin-bottom: 5rem;
+    background-color: white;
+  }
+  
+.white-round-icon {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.commentContainer{
+    background-color: white;
+    height: 40rem;
+}
+

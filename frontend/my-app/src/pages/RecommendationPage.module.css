@@ -1,0 +1,84 @@
+.mainContainter {
+    display: flex;
+    background-color: #1A1A1A;
+}
+
+.ratedMovies {
+    flex: 0.27; /* This will ensure both divs take up equal space. Adjust this value if you want the divs to have different proportions. */
+    background-color: #1A1A1A;
+    height: 100%;
+}
+
+.ratedMovies p{
+    margin-left: 1rem;
+    color: white;
+    opacity: 0.7;
+}
+
+.recommendationsContainer{
+    flex: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recommendations {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px; /* adjust this for the spacing you want between items */
+}
+
+.recommendations p{
+    margin-left: 1rem;
+    opacity: 0.7;
+}
+
+.settings{
+    flex: 0.22;
+    background-color: black;
+    color: white;
+}
+
+.settings p{
+    margin-left: 1rem;
+    opacity: 0.7;
+}
+
+legend{
+    opacity: 0.7;
+}
+
+.settings label{
+    opacity: 0.7;
+}
+
+.LoadButton {
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.genre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.settings input{
+    width: 25px;
+}
+
+.SimilarityContainer{
+    margin-top: 1rem;
+}
+
+.SimilarityContainer input {
+    width: 3rem;
+}

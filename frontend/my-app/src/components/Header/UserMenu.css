@@ -1,0 +1,10 @@
+.main-container {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    position: absolute; /* Add this */
+    background-color: #fff; /* Add this, or any desired background color */
+    z-index: 1000; /* Add this */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add this for a subtle shadow effect */
+    border-radius: 5px; /* Add this for rounded corners */
+}

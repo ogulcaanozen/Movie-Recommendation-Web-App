@@ -1,0 +1,11 @@
+/* Rating.module.css */
+.rating-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating-container img {
+    height: 10px;
+    width: auto;
+  }
+  

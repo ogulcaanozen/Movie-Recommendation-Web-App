@@ -1,0 +1,57 @@
+.mainContainer{
+    background-color: black;
+    width: 10rem;
+    height: 20rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.poster{
+    height: 11rem;
+    width: auto;
+    margin-left: 1rem;
+}
+
+.mainContainer h4{
+    color: white;
+    opacity: 90%;
+    font-size: small;
+    margin-top: 0.3rem;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+}
+
+.mainContainer p{
+    font-size: x-small;
+    color:white;
+    margin-left: 0.5rem;
+    margin-top: 1px;
+
+}
+
+.percentage{
+    width: 1.7rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+
+.similarityContainer {
+    display: flex;
+    align-items: center; /* This will vertically center align items if their heights differ */
+    gap: 0px; /* This creates some space between the elements */
+}
+
+.similarityContainer img{
+    margin-top:0px ;
+}
+
+.similarityContainer p{
+    font-size: small;
+    margin-top: 10px;
+    margin-left:5px ;
+}
+
+.movieDetails{
+    margin-bottom: 0px;
+    
+}

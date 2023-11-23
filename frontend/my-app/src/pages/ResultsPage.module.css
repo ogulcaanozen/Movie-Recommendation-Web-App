@@ -1,0 +1,10 @@
+.mainContainer{
+    background-color: black;
+}
+
+.mainContainer h2{
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 2.5rem;
+    font-size: 50px;
+}

@@ -1,0 +1,38 @@
+.resultCardContainer {
+    display: flex;
+    border: solid rgb(41, 41, 41);
+    border-width: 0.2px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 80%;
+    height: 10.2rem;
+    cursor: pointer;
+    overflow: hidden; /* Add this line */
+}
+
+.posterContainer {
+    margin-bottom: 0rem;
+}
+
+.posterContainer img {
+    height: 10.2rem;
+    width: auto;
+    margin: 0px;
+}
+
+.infoContainer {
+    margin-left: 1rem;
+}
+
+.infoContainer h3 {
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+.infoContainer p {
+    color: white;
+    opacity: 85%;
+    font-size: small;
+    margin-top: 0.2rem;
+}

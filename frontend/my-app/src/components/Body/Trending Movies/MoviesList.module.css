@@ -1,0 +1,14 @@
+.title-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6.8rem;
+}
+.title-container h1{
+    color: white;
+    margin-bottom: 0rem;
+}
+.title-container p{
+    color: gray;
+    margin-bottom: 0rem;
+    margin-top: 0.3rem;
+}
